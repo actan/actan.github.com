@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Allen's first github blog
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 忙碌的两周
 ---
 
