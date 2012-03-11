@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 忙碌的两周
+tags: [随想, 生活]
+category: 杂记
 ---
 
 过去的两周很忙，接下来的两周应该也是如此。给Velocity升级说小也小，说大也大，繁琐而要求细致。也好，总比每天不知道怎么写time report要好。
