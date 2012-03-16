@@ -1,6 +1,58 @@
----
-theme :
-  name : twitter
----
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<title>相信未来</title>
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
+	<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/lzyy"> -->
+</head>
+
+<body>
+	<div id="logo"><h1><a href="/">相信未来</a></h1></div>
+	<div id="wrapper">
+				
+		{{ content }}
+
+		<div id="footer">
+		<!-- 
+			<div id="feed">
+				<div class="badget" id="github">
+					<a href="http://github.com/lzyy">
+					<span class="service">github</span>
+					<span class="info"> </span>
+					</a>
+				</div>
+				<div class="badget" id="twt">
+					<a href="http://twitter.com/lzyy">
+					<span class="service">twitter</span>
+					<span class="info"> </span>
+					</a>
+				</div>
+				<div class="badget" id="feedburner">
+					<a href="http://feeds.feedburner.com/lzyy">
+					<span class="service">rss</span>
+					<span class="info"> </span>
+					</a>
+				</div>
+			</div>
+			-->
+			<span style="color:#bbb;font-size:12px">believe in the future</span>
+			<p style="clear:both"></p>
+		</div>
+
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-29687003-1']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})(); 
+	</script>
+
+</body>
+</html>
+
