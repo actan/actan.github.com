@@ -1,0 +1,2 @@
+	<div id="logo"><h1><a href="/">相信未来</a></h1></div>
+
