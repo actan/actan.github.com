@@ -3,19 +3,9 @@ layout: default
 title: Believe in the future
 ---
 <div id="content" class="index">
-	<div id="sidebar">
-		<ul><li>
-			<a href="#">ARTICLES</a>
-			<ul>
-				{% for category in site.categories %}
-				<li><a href="/{{ category[0]  }}.html"> {{ category[0]  }}</a></li>
-				{% endfor %}
-			</ul>
-		</li>
 		
+<!-- leftstart -->
 {% include left_menu.textile %}
-		</ul>
-	</div>
 
 	<div id="main">
 	<ul class="posts">
