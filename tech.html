@@ -1,7 +1,21 @@
 ---
-layout: category
-title: TECH
+layout: default
+title: tech
 ---
+<div id="content" class="index">
+		
+<!-- left menu start -->
+{% include left_menu.textile %}
+<!-- left menu end -->
+
+<!-- category breadcrumb start -->
+{% include category_breadcrumb.textile %}
+<!-- category breadcrumb end -->
 
 {% assign category_posts = site.categories.tech %}
-{% include category_page.textile %}
+<!-- right list start -->
+{% include post_list.textile %}
+<!-- right list end -->
+
+</div>
+
