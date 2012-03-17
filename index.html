@@ -4,14 +4,12 @@ title: Believe in the future
 ---
 <div id="content" class="index">
 		
-<!-- leftstart -->
+<!-- left menu start -->
 {% include left_menu.textile %}
+<!-- left menu end -->
 
-	<div id="main">
-	<ul class="posts">
-		{% for post in site.posts %}
-		<li><p class="date" cate="{{ post.categories }}">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-	</ul>
-	</div>
+<!-- right list start -->
+{% include post_list.textile %}
+<!-- right list end -->
+
 </div>
