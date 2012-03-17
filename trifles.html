@@ -2,6 +2,19 @@
 layout: default
 title: trifles
 ---
+<div id="content" class="index">
+		
+<!-- left menu start -->
+{% include left_menu.textile %}
+<!-- left menu end -->
+
+<!-- category breadcrumb start -->
+{% include category_page.textile %}
+<!-- category breadcrumb end -->
 
 {% assign category_posts = site.categories.trifles %}
-{% include category_page.textile %}
+<!-- right list start -->
+{% include post_list.textile %}
+<!-- right list end -->
+
+</div>
