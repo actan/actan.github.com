@@ -4,17 +4,21 @@ title: trifles
 ---
 <div id="content" class="index">
 		
-<!-- left menu start -->
-{% include left_menu.textile %}
-<!-- left menu end -->
+	<!-- left menu start -->
+	{% include left_menu.textile %}
+	<!-- left menu end -->
 
-<!-- category breadcrumb start -->
-{% include category_breadcrumb.textile %}
-<!-- category breadcrumb end -->
+	<!-- main start -->
+	<div id="main">
+	<h1>CATEGORY » {{ page.title }}</h1>
 
-{% assign category_posts = site.categories.trifles %}
-<!-- right list start -->
-{% include post_list.textile %}
-<!-- right list end -->
+	{% assign category_posts = site.categories.trifles %}
+
+	<!-- right list start -->
+	{% include post_list.textile %}
+	<!-- right list end -->
+
+	</div>
+	<!-- main end -->
 
 </div>
