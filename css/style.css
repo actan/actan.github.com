@@ -101,9 +101,9 @@ div#content img, div#content object {
 	-moz-border-radius:5px 5px 5px 5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
-	-moz-box-shadow:0 1px 0 #FFFFFF;
-	/*border:5px solid #222222;*/
-	/*width:680px;*/
+	/* -moz-box-shadow:0 1px 0 #FFFFFF;
+	border:5px solid #222222;
+	width:680px;*/
 }
 div#content li {
 	list-style:disc inside none;
