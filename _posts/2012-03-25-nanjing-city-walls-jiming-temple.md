@@ -15,13 +15,19 @@ category: album
 
 <div class="img_v"><img src="http://i.imgur.com/v6ujE.jpg" ></div>
 
-![1](http://i.imgur.com/gdPSx.jpg)
+大年初一的，没多少人划船。
 
-![1](http://i.imgur.com/4zjBW.jpg)
+<div class="img_v"><img src="http://i.imgur.com/gdPSx.jpg" ></div>
 
-![1](http://i.imgur.com/Lnqto.jpg)
+<div class="img_h"><img src="http://i.imgur.com/4zjBW.jpg" ></div>
 
-![1](http://i.imgur.com/WvV0g.jpg)
+除了山脚下的建筑，几十年前看到的应该和今天一样。
+
+<div class="img_v"><img src="http://i.imgur.com/Lnqto.jpg" ></div>
+
+结束时再来一张鸡鸣寺
+
+<div class="img_h"><img src="http://i.imgur.com/WvV0g.jpg" ></div>
 
 
 
