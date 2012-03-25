@@ -9,7 +9,6 @@ category: album
 
 <div class="img_v"><img src="http://i.imgur.com/8Al1z.jpg" ></div>
 
-
 <div class="img_h"><img src="http://i.imgur.com/Cy1kY.jpg" ></div> 
 
 这张貌似已经被太多的人拍过了，不过我也是刚刚知道:-)
@@ -19,7 +18,6 @@ category: album
 大年初一的，没多少人划船。
 
 <div class="img_v"><img src="http://i.imgur.com/gdPSx.jpg" ></div>
-
 
 <div class="img_h"><img src="http://i.imgur.com/4zjBW.jpg" ></div>
 
