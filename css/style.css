@@ -432,3 +432,10 @@ div#disqus_thread li{
 div#disqus_thread li ul li {
 	list-style:none;
 }
+
+div.img_v image{
+	margin-left: -50px;
+	max-width: 800px;
+}
+div.img_h {text-align:center}
+div.img_h image{max-height: 690px;} 
