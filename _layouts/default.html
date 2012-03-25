@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- header start -->
-{% include header.textile %}
-<!-- header end -->
+	{% include header.textile %}
 </head>
 
 <body>
-<!-- logo start -->
-{% include logo.textile %}
-<!-- logo end -->
+	{% include logo.textile %}
 	<div id="wrapper">
-				
+					
 		{{ content }}
 
-<!-- footer start -->
-{% include footer.textile %}
-<!-- footer end -->
+		{% include footer.textile %}
 
-<!-- tracking start -->
-{% include g_tracking.textile %}
-<!-- tracking end -->
+		{% include g_tracking.textile %}
 
+	<!-- end of div wrapper -->
+	</div>
 </body>
 </html>
-
