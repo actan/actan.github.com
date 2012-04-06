@@ -11,7 +11,7 @@ category: album
 
 <div class="img_v"><img src="http://i.imgur.com/uTViB.jpg" ></div>
 
-<div class="img_h"><img src="http://i.imgur.com/vFMir.jpg" ></div> 
+<div class="img_v"><img src="http://i.imgur.com/vFMir.jpg" ></div> 
 
 <div class="img_v"><img src="http://i.imgur.com/3bYYM.jpg" ></div>
 
