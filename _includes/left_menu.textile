@@ -3,11 +3,15 @@
 			<a href="#">ARTICLES</a>
 			<ul>
 				{% for category in site.categories %}
-				{% if category[0] == "album" %}
-				<li><a href="/{{ category[0]  }}.html">相册</a></li>
-				{% else %}
-				<li><a href="/{{ category[0]  }}.html">{{ category[0] }}不是</a></li>
-				{% end %}
+					<li><a href="/{{ category[0]  }}.html">
+					{% if category[0] == "album" %}
+						相册
+					{% elseif category[0] == "trifles"%}
+						杂记
+					{% else %}
+						{{ category[0] }}
+					{% endif %}
+					</a></li>
 				{% endfor %}
 			</ul>
 		</li>
