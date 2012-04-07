@@ -1,6 +1,6 @@
 	<div id="sidebar">
 		<ul><li>
-			<a href="#" id="article_list_title">文章</a>
+			<a href="#" id="article_list_title">文章列表</a>
 			<ul>
 				{% for category in site.categories %}
 					<li><a href="/{{ category[0]  }}.html">
@@ -13,7 +13,7 @@
 				{% endfor %}
 			</ul>
 		</li>
-		<li><a href="/quotes.html">要记住</a></li>
+		<li><a href="/quotes.html">挺有道理</a></li>
 		<li><a href="/about.html">关于我</a></li>
 		<li><a href="/contact.html">联系我</a></li>
 
