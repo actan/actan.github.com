@@ -10,5 +10,22 @@ category: album
 
 不过就这样吧，今年就这样交待一下，好在小区里的樱花是双瓣的 ^-^
 
-<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/6VBvZ/embed"></iframe>
+<div class="img_h"><img src="http://i.imgur.com/kdUF1.jpg" ></div>
 
+<div class="img_h"><img src="http://i.imgur.com/HvQat.jpg" ></div>
+
+<div class="img_v"><img src="http://i.imgur.com/pqwow.jpg" ></div>
+
+<div class="img_h"><img src="http://i.imgur.com/ggDrW.jpg" ></div>
+
+<div class="img_h"><img src="http://i.imgur.com/hq2M9.jpg" ></div>
+
+<div class="img_h"><img src="http://i.imgur.com/8P5kh.jpg" ></div>
+
+<div class="img_v"><img src="http://i.imgur.com/rh5XL.jpg" ></div>
+
+<div class="img_h"><img src="http://i.imgur.com/76vq0.jpg" ></div>
+
+<div class="img_h"><img src="http://i.imgur.com/kn5Th.jpg" ></div>
+
+<div class="img_h"><img src="http://i.imgur.com/0FF9P.jpg" ></div>
