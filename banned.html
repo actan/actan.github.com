@@ -1,0 +1,24 @@
+---
+layout: default
+title: BANNED
+---
+<div id="content" class="index">
+		
+	<!-- left menu start -->
+	{% include left_menu.textile %}
+	<!-- left menu end -->
+
+	<!-- main start -->
+	<div id="main">
+	<h1>CATEGORY » {{ page.title }}</h1>
+
+	{% assign category_posts = site.categories.banned %}
+
+	<!-- right list start -->
+	{% include category_post_list.textile %}
+	<!-- right list end -->
+
+	</div>
+	<!-- main end -->
+
+</div>

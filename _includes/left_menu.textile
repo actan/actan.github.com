@@ -8,6 +8,8 @@
 						相册
 					{% elsif category[0] == "trifles" %}
 						杂记
+					{% elsif category[0] == "banned" %}
+						"和谐"
 					{% endif %}
 					</a></li>
 				{% endfor %}
