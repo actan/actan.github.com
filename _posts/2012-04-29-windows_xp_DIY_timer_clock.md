@@ -31,14 +31,6 @@ category: tech
 2. 创建一个生成弹出窗口的脚本。
 新建一个文本文件，复制上面的代码进去，然后保存为后缀名为bat的文件，取名为timer.bat。这就是我们"定时提醒软件"的程序界面。:-)
 
-{% highlight php }
-@echo off
-for /f %%i in ('time /t') do set a=%%i
-
-rem change you computer name below
-net send YOURCOMPUTERNAME NOW is %a%, STOP and TAKE A BREAK. 
-{ endhighlight %}
-
 
 3. 找到你的计算机名。
 右键桌面上的'我的电脑'，点击'属性'，如下图所示，红圈处就是你的电脑名字。
@@ -96,13 +88,6 @@ Win 7和XP原理和设置都是类似，除了有两点变化：
 * 向计算机名发消息变成了向指定用户名发消息
 
 所以timer.bat的内容就变成了：
-{% highlight php }
-@echo off
-for /f %%i in ('time /t') do set a=%%i
-
-rem win7 below:
-rem msg.exe Administrator NOW is %a%, TAKE A BREAK.
-{ endhighlight %}
 
 *注意：*如果你的Win7登录时并不是管理员账号登录那么就把Administrator换成你的用户名
 
