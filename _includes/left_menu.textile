@@ -10,6 +10,8 @@
 						杂记
 					{% elsif category[0] == "banned" %}
 						被和谐
+					{% elsif category[0] == "tech" %}
+						技术
 					{% endif %}
 					</a></li>
 				{% endfor %}
