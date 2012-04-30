@@ -37,7 +37,7 @@ h4. 2. 创建一个生成弹出窗口的脚本。
 
 新建一个文本文件，复制下面的代码进去，然后保存为后缀名为bat的文件，取名为timer.bat。这就是我们"定时提醒软件"的程序界面。:-)
 
-{% highlight batch %}
+{% highlight Batchfile %}
 
 @echo off
 for /f %%i in ('time /t') do set a=%%i
@@ -125,7 +125,7 @@ Win 7和XP原理和设置都是类似，除了有两点变化：
 所以timer.bat的内容就变成了：
 
 
-{% highlight batch }
+{% highlight Batchfile %}
 
 @echo off
 for /f %%i in ('time /t') do set a=%%i
@@ -133,7 +133,7 @@ for /f %%i in ('time /t') do set a=%%i
 rem win7 below:
 rem msg.exe Administrator NOW is %a%, TAKE A BREAK.
 
-{ endhighlight %}
+{% endhighlight %}
 
 *注意*:如果你的Win7登录时并不是管理员账号登录那么就把Administrator换成你的用户名
 
