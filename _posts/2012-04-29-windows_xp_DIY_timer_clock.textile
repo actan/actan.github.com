@@ -4,8 +4,6 @@ title: Windows整点提醒DIY
 category: tech
 ---
 
-p(date). 2012-04-29
-
 h3. 你需要定时提醒功能吗？
 
 如果对以下几点深有同感：
