@@ -31,13 +31,18 @@ category: tech
 2. 创建一个生成弹出窗口的脚本。
 新建一个文本文件，复制上面的代码进去，然后保存为后缀名为bat的文件，取名为timer.bat。这就是我们"定时提醒软件"的程序界面。:-)
 
+{% highlight php }
+@echo off
+for /f %%i in ('time /t') do set a=%%i
+
+rem change you computer name below
+net send YOURCOMPUTERNAME NOW is %a%, STOP and TAKE A BREAK. 
+{ endhighlight %}
 
 3. 找到你的计算机名。
 右键桌面上的'我的电脑'，点击'属性'，如下图所示，红圈处就是你的电脑名字。
-把你的计算机名复制下来，替换掉上一步中的YOURCOMPUTERNAME并保存。
-
-![1](http://i.imgur.com/etZFE.png)
-
+把你的计算机名复制下来，替换掉上一步中的YOURCOMPUTERNAME并保存。 
+![1](http://i.imgur.com/etZFE.png) 
 *注意：*如果你的电脑像我一样也处于某个域中，记得拷贝计算机名的时候把域的名去掉。
 
 4. 试验弹出窗口。
