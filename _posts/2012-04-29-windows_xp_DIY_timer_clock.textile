@@ -35,7 +35,22 @@ h4. 1. 首先确保两个系统服务是设成成开机自动启动的。
 
 h4. 2. 创建一个生成弹出窗口的脚本。
 
-新建一个文本文件，复制上面的代码进去，然后保存为后缀名为bat的文件，取名为timer.bat。这就是我们"定时提醒软件"的程序界面。:-)
+新建一个文本文件，复制下面的代码进去，然后保存为后缀名为bat的文件，取名为timer.bat。这就是我们"定时提醒软件"的程序界面。:-)
+
+{% highlight javascript %}
+{
+	id_str: "12345"
+	is_translator: false
+	following: null
+	profile_text_color: "333333"
+	description: "ID 12345"
+	status: {
+		coordinates: null
+		text: "Follow @ha
+	}
+	//...
+}
+{% endhighlight %}
 
 h4. 3. 找到你的计算机名。
 
