@@ -128,7 +128,7 @@ Win 7和XP原理和设置都是类似，除了有两点变化：
 for /f %%i in ('time /t') do set a=%%i
 
 rem win7 below:
-rem msg.exe Administrator NOW is %a%, TAKE A BREAK.  
+msg.exe Administrator NOW is %a%, TAKE A BREAK. 
 {% endhighlight %}
 
 *注意*:如果你的Win7登录时并不是管理员账号登录那么就把Administrator换成你的用户名
