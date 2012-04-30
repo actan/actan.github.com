@@ -8,14 +8,13 @@ layout: default
 	<h2>{{ page.title }}</h2>
 
 	<p>{{ page.date | date: "%Y %m %d " }}</p>
+	p(date). {{ page.date | date: "%Y-%m-%d" }}
 	<div class="cnt">
 	{{ content }}
 
 
-	{% if page.categories[0] == "tech" %}
-		<p>--转载请注明出处</p>
-	{% elsif page.categories[0] == "album" %}
-		<p>--转载请注明出处</p>
+	{% if page.categories[0] == "tech" or page.categories[0] == "album" %}
+		<p>--本文采用<a href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/" target="_blank">创作共用版权 CC BY-NC-ND/2.5/CN 许可协议</a>，转载请注明出处。</p>
 	{% endif %}
 	</div>
 
