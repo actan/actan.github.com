@@ -35,6 +35,14 @@ h4. 1. 首先确保两个系统服务是设成成开机自动启动的。
 
 h4. 2. 创建一个生成弹出窗口的脚本。
 
+{% highlight php }
+@echo off
+for /f %%i in ('time /t') do set a=%%i
+
+rem change you computer name below
+net send YOURCOMPUTERNAME NOW is %a%, STOP and TAKE A BREAK. 
+{ endhighlight %}
+
 新建一个文本文件，复制上面的代码进去，然后保存为后缀名为bat的文件，取名为timer.bat。这就是我们"定时提醒软件"的程序界面。:-)
 
 h4. 3. 找到你的计算机名。
@@ -94,8 +102,8 @@ h4. 6. 进一步设置频率。
 
 *注意*:
 
-*"重复任务"栏里输入你想运行的频率，半小时，1小时，2小时…… 
-*持续时间：这个控制了重复的范围，我希望只要电脑开着就要半小时提醒一次，所以我输入了24小时。如果你并不需要，那么输入你的希望值。
+* "重复任务"栏里输入你想运行的频率，半小时，1小时，2小时…… 
+* 持续时间：这个控制了重复的范围，我希望只要电脑开着就要半小时提醒一次，所以我输入了24小时。如果你并不需要，那么输入你的希望值。
 
 h4. 7. 试试能按时提醒了吗？
 
@@ -114,6 +122,14 @@ Win 7和XP原理和设置都是类似，除了有两点变化：
 * 向计算机名发消息变成了向指定用户名发消息
 
 所以timer.bat的内容就变成了：
+
+{% highlight php }
+@echo off
+for /f %%i in ('time /t') do set a=%%i
+
+rem win7 below:
+rem msg.exe Administrator NOW is %a%, TAKE A BREAK.
+{ endhighlight %}
 
 *注意*:如果你的Win7登录时并不是管理员账号登录那么就把Administrator换成你的用户名
 
