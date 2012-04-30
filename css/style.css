@@ -17,7 +17,7 @@ address,caption,cite,code,dfn,em,strong,th,var {
 ol,ul {
 	list-style:none;
 }
-	*/
+*/
 caption,th {
 	text-align:left;
 }
@@ -111,7 +111,7 @@ div#content img, div#content object {
 	width:680px;*/
 }
 div#content li {
-	list-style:disc inside none;
+	/*list-style:disc inside none; */
 	margin-left:10px;
 }
 
