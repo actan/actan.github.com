@@ -1,6 +1,6 @@
 <!-- Baidu Button BEGIN -->
     <div id="bdshare" class="bdshare_t bds_tools_32 get-codes-bdshare">
-        分享到<a class="bds_qzone"></a>
+        <a class="bds_qzone"></a>
         <a class="bds_tsina"></a>
         <a class="bds_tqq"></a>
         <a class="bds_renren"></a>
