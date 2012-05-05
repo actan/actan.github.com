@@ -11,13 +11,13 @@ h3. Linux下的整点提醒
 我在家用Ubuntu(Gnome桌面)比较多，所以就以Ubuntu为例来说明吧。下图先来一张实现后的效果：
 !http://i.imgur.com/aUTFB.png!
 
-h3. 废话少说，开始实现！ 
+h3. 开始实现！ 
 
 h4. 1. 安装zenity
 
 zenity是Gnome下面一个产生对话框、进度条等等交互效果的程序。我打算用这个小程序来实现我们的弹出对话框(什么？你没用Gnome?那就麻烦你不用往下看了，找个你的桌面环境下的对应程序吧……)
 
-只要装了Gnome一般zenity都是已经安装在里面的。不过如果不放心可以手动安装下。
+只要装了Gnome一般zenity都是已经安装在里面的。如果不放心可以手动安装下。
 
 {% highlight php %} 
 sudo apt-get install zenity
@@ -31,7 +31,7 @@ zenity --question --text="Are you sure you wish to proceed?"
 
 弹出一个要你选择yes/no的对话框没？出来的话就继续！
 
-h4. 2. 完成我们的提醒界面
+h4. 2. 实现提醒界面
 
 新建一个timer.sh，复制下面的代码进去。
 
@@ -41,7 +41,7 @@ now=$(date +%T)
 zenity --info --text "It's $now now. \n\nThink about the past 30 mins." --title "Take a BREAK"
 {% endhighlight %}
 
-export DISPLAY=:0.0 这句很重要。crontab本来只是用来运行非X程序的，就是没有界面的那种程序。只有加了这条，crontab才能在运行上面的脚本时弹一个框子来。不然的话它确实是运行过了，但是你在界面上看不到提示，白忙活了！
+export DISPLAY=:0.0 这句话很重要。crontab本来只是用来运行无GUI程序的，就是没有界面的那种。只有加了这条，crontab才能在运行上面的脚本时弹一个框子来。不然的话它确实是运行过了，但是你在界面上看不到提示，白忙活了！
 
 h4. 3. 设置crontab
 
@@ -59,13 +59,13 @@ crontab -e
 00 * * * * /home/allen/Dropbox/timer/timer.sh
 {% endhighlight %}
 
-保存并退出。
+最好把写上脚本的绝对路径。保存并退出。
 
 h4. 4. That's it!
 
-我觉得因为有了crontab，linux下设置定时任务比Windows简单了许多。如果你的crontab设置后脚本却并没有正常运行——有可能是你的crontab没开启？
+crontab让linux下设置定时任务比Windows简单了许多。如果你的crontab设置后脚本却并没有正常运行——有可能是你的crontab没开启？
 
-测试crontab的方法就是给它加几个简单的任务——每两分钟让Linux在指定目录执行一个生成新文本的任务。如果成功生成的话就说明crontab是正常的。
+测试crontab的方法就是给它加几个简单的任务——每两分钟让Linux在指定目录执行一个生成新文本的任务。如果成功生成的话就说明crontab是正常的。再不行可能还要重启crontab服务。
 
 h3. 结语
 
@@ -75,3 +75,4 @@ h3. 结语
 
 1. "zenity manual":http://library.gnome.org/users/zenity/3.1/zenity.html
 2. "Ubuntu 使用crontab定时任务":http://blog.csdn.net/mydeman/article/details/3727060
+3. "crontab: How to run GUI programs with cron":http://ubuntuforums.org/archive/index.php/t-185993.html
