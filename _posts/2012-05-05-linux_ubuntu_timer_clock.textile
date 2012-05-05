@@ -70,3 +70,8 @@ h4. 4. That's it!
 h3. 结语
 
 嗯，好了，结束！
+
+下面列出来一些参考资料。
+
+1. "zenity manual":http://library.gnome.org/users/zenity/3.1/zenity.html
+2. "Ubuntu 使用crontab定时任务":http://blog.csdn.net/mydeman/article/details/3727060
