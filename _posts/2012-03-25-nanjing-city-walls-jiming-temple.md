@@ -7,7 +7,7 @@ category: album
 南京的古建筑很多都被破坏了，仅存的一些都经过了翻修。
 不过我觉得南京还算是一个古代与现代并存相处的不错的一个城市。
 
-<div class="img_h"><img src="http://i.imgur.com/8Al1z.jpg" ></div>
+<div class="img_h"><img src="http://public.sn2.livefilestore.com/y1pDAdia6ULLP7SR9vvXRHPEKOYBg5PqMFJnboGsvfjzlS8h7beJ5q7-lM7L1dyjibrBibTZ5tXNnhaEQDsaiETeg/8Al1z%20-%20Imgur.jpg?psid=1" ></div>
 
 <div class="img_v"><img src="http://i.imgur.com/Cy1kY.jpg" ></div> 
 
