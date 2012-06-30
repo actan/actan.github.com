@@ -23,7 +23,7 @@ ctrl+3 		dropbox			同
 ctrl+4 		firefox			同
 ctrl+5 		gedit			vim
 ctrl+6 		calc			同
-ctrl+7 						youdao 
+ctrl+7 					youdao 
 ctrl+0 		平铺窗口
 ctrl+9 		平铺桌面
 ctrl+F11 	窗口变化
