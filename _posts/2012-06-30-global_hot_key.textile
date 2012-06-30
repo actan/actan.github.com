@@ -15,7 +15,7 @@ Windows下也有各种各样的快捷键。但是无法满足我的需求的是�
 下面是我的快捷键设置。Ctrl+2就能启动Chrome，在Ubuntu和Win下面都是一致的。这是我最满意的。
 
 {% highlight php %} 
-			Ubuntu			Windows
+		Ubuntu			Windows
 ctrl+` 		Nautilus		Explorer
 ctrl+1 		shell			cmd
 ctrl+2 		chrome			同
