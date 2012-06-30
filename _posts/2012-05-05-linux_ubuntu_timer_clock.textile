@@ -9,7 +9,7 @@ h3. Linux下的整点提醒
 "上篇文章":http://mohaha.tk/tech/2012/04/29/windows_xp_DIY_timer_clock.html 写了Windows XP下面的整点提醒，貌似没有人感兴趣嘛……不过我还是把在Linux下的方法也写出来吧。说不定会对有些人有点用。
 
 我在家用Ubuntu(Gnome桌面)比较多，所以就以Ubuntu为例来说明吧。下图先来一张实现后的效果：
-!http://i.imgur.com/aUTFB.png!
+!https://public.sn2.livefilestore.com/y1pD1YCQt-Iin7rGEt3LFDam0mXcmzmZJaM-kTeFlUCz8n15FtoOpt5_VkuxsbSqo_OlqPF9eMx2udQtSMF8IVQCw/aUTFB%20-%20Imgur.png?psid=1!
 
 h3. 开始实现！ 
 
