@@ -38,7 +38,7 @@ h3. 在Windows下实现全局快捷键
 
 软件的主页在此： "http://www.bcheck.net/apps/hoe.htm":http://www.bcheck.net/apps/hoe.htm
 
-页面上有很多版本，不过貌似还是1.13版好用。"下载链接":http://www.bcheck.net/apps/HoeKey113.zip
+页面上有很多版本，不过貌似还是1.13版好用。 "下载链接":http://www.bcheck.net/apps/HoeKey113.zip
 
 下载解压双击Hoekey.exe 然后设置就行啦。
 
