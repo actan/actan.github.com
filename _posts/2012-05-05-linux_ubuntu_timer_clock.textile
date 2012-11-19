@@ -76,3 +76,5 @@ h3. 结语
 1. "zenity manual":http://library.gnome.org/users/zenity/3.1/zenity.html
 2. "Ubuntu 使用crontab定时任务":http://blog.csdn.net/mydeman/article/details/3727060
 3. "crontab: How to run GUI programs with cron":http://ubuntuforums.org/archive/index.php/t-185993.html
+
+hahaha
