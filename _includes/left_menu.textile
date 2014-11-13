@@ -8,8 +8,6 @@
 						相册
 					{% elsif category[0] == "trifles" %}
 						杂记
-					{% elsif category[0] == "banned" %}
-						被和谐
 					{% elsif category[0] == "tech" %}
 						技术
 					{% endif %}
@@ -17,8 +15,8 @@
 				{% endfor %}
 			</ul>
 		</li>
-		<li><a href="/quotes.html">有道理</a></li>
-		<!-- <li><a href="/about.html">我认为</a></li> -->
+		<!-- <li><a href="/quotes.html">有道理</a></li>
+		<li><a href="/about.html">我认为</a></li> -->
 		<li><a href="/contact.html">找我?</a></li>
 
 		<!-- 
