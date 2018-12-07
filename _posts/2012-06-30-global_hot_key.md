@@ -83,5 +83,3 @@ alt+F1 		总菜单
 ### 结语
 
 好了，结束！ Enjoy快捷键吧。
-
-test from win
