@@ -1,6 +1,6 @@
 <!-- header start -->
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<title>{{ page.title }} - 与机器赛跑</title>
+	<title>{{ page.title }} - 文字的意义</title>
 	<link rel="stylesheet" type="text/css" href="/css/style.css" />
 	<link rel="stylesheet" type="text/css" href="/css/syntax.css" />
 	<!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/lzyy"> -->
