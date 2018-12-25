@@ -1,4 +1,4 @@
 <!-- logo start -->
-	<div id="logo"><h1><a href="/">文字的意义</a></h1></div>
+	<div id="logo"><h1><a href="/">写点东西以后看</a></h1></div>
 <!-- logo end -->
 
