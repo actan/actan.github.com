@@ -10,7 +10,7 @@ Windows下也有各种各样的快捷键。但是无法满足我的需求的是�
 
 在Ubuntu下这很容易。在Control Center里找键盘快捷键就行了。如下图：
 
-![image](http://public.sn2.livefilestore.com/y1pNfl7QmeC_WDb-xFMhUlbmPZXashQkVYaMPDGEuB9yVj-yPEgf8iuaIJW0ziGqRlktas2Xd1Tlz0rWfIAdSCYQg/lin_hotkey_set.png?psid=1)
+![image](https://public.sn2.livefilestore.com/y1pNfl7QmeC_WDb-xFMhUlbmPZXashQkVYaMPDGEuB9yVj-yPEgf8iuaIJW0ziGqRlktas2Xd1Tlz0rWfIAdSCYQg/lin_hotkey_set.png?psid=1)
 
 下面是我的快捷键设置。Ctrl+2就能启动Chrome，在Ubuntu和Win下面都是一致的。这是我最满意的。
 
@@ -78,7 +78,7 @@ alt+F1 		总菜单
 
 记得修改完快捷键之后要再点下Edit Config按钮，这样才能立马生效哦。
 
-![image](http://public.sn2.livefilestore.com/y1pwfhqbHIt-DMNBQVWjPQ_VpTuic1ooivpQADfgwYfSrmmEj23uqotkenCIE7-AO1cfmVikWzhWXpAwLhe3IONUg/800-600.a3fe43001e8f76bb8476db89f58c0b36252e8aa6.57dcda.jpg?psid=1)
+![image](https://public.sn2.livefilestore.com/y1pwfhqbHIt-DMNBQVWjPQ_VpTuic1ooivpQADfgwYfSrmmEj23uqotkenCIE7-AO1cfmVikWzhWXpAwLhe3IONUg/800-600.a3fe43001e8f76bb8476db89f58c0b36252e8aa6.57dcda.jpg?psid=1)
 
 ### 结语
 
