@@ -43,11 +43,11 @@ Bearer eyJhbGciOiJkaXIiLCJlbmMi
 
 OK, 不是空格那它是什么呢？把上面有问题的这段string拷贝到postman里再试，好的，Ctrl+C还是不会搞小动作的，问题重现了。问题的来源就是在这段字符串里。
 
-那么把这串字符的acsii代码打印出来：
+那么把这串字符的unicode code point打印出来：
 
 ![image](https://nsaufw.dm.files.1drv.com/y4m8uGa1Tt-T6mcJrMdUlNbQ4M5uk6Xsis1FhRWI1hLDOsZ6jK8GTPMpLgSIra0wD1_Z5jKKDGwqMR6JdfeGHq7mDrLMyC-Nq6pcelbIiPDGvWjUwphZtYC76juOaqeFdwQB1adk5DfTaNQ05d0CyjNGw_lRcEzSwKc4V9hJSwoEZBAf7oju0-Q_u6zFZ7rfHKw?width=129&height=376&cropmode=none)
 
-好了，那个“空格”是一个假空格，Ascii代码是160而不是32，它显示成空格只是找不到对应的字符而已。(唉，那个假空格不是我传的呀，给别人擦屁股了)
+好了，那个“空格”是一个假空格，代码是160而不是32，它显示成空格只是找不到对应的字符而已。(唉，那个假空格不是我传的呀，给别人擦屁股了)
 
 ### 结论
 
